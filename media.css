@@ -1,0 +1,16 @@
+@media (max-width: 720px) {
+    .block-1 {  background-image:none;
+        background-color: #F4F6F9;
+        text-align: center;
+    }
+    .block-1-btn {
+        justify-content:space-between;
+    }
+    
+    .block-2 {
+    flex-wrap: wrap-reverse;
+    }
+    .block-2-right-part {
+    text-align: center;
+    }
+}
