@@ -1,16 +1,173 @@
 @media (max-width: 720px) {
     .block-1 {  background-image:none;
         background-color: #F4F6F9;
+        width: 100%;
+    }
+    .block-1-text {
+        width: 90%;
         text-align: center;
+        padding-right:8%;
+        padding-bottom:15%;
     }
     .block-1-btn {
-        justify-content:space-between;
+        justify-content:center;
+    }
+    .block-what-it-does {
+        justify-content: space-around;
+        background-size: cover;
     }
     
-    .block-2 {
-    flex-wrap: wrap-reverse;
+    .block-what-it-does-text-part {
+        text-align: center;
+        width:80%;
     }
-    .block-2-right-part {
-    text-align: center;
+
+    .block-what-it-does-media-part-afisha{
+        width: 247px;
+        height: 149px;
+        margin-top:-7%;
+        margin-left:-10%;
+       
+    }
+    .video {
+        width: 190px;
+        height: 100px;
+        margin-top:20%;
+        margin-left:15%;
+    }
+    .block-get-started {
+        background-image: none;
+    } 
+    .background-resp  {
+        display: block;
+        width: 100%;
+    } 
+    .bg-resp{
+        width:100%;
+
+    }
+    .block-get-started-text-part {
+        text-align: center;
+        width:80%;
+        margin-top: 10%;
+        background-position: center ;
+
+    }
+    .block-features {
+        background:#FAFAFA;
+        height: auto;
+
+    }
+    .block-features h2 {
+        margin-top:20%;
+        font-size: 28px;
+        line-height: 37px;
+        text-align: center;
+        color: #333333;
+
+    }
+    .features {
+        text-align: center;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        color: #4F4F4F;
+        margin-top: 0;
+        margin-left:10%;
+
+    }
+    .features_p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        text-align: center;
+        color: #4F4F4F;
+        
+    }
+    .features img {
+        background:#00ADEE;
+    }
+    .block-get-up-close-with-your-team-text{
+        width: 90%;
+        text-align: center;
+        margin-left:2%;
+    }
+    .slider-1 {
+        display:none;
+    }
+    .item-1 {
+        display:none;
+    }
+    .item-3 {
+        display:none;
+    }
+    .item-2  {
+        margin-left:8%;
+        margin-right:8%;
+    }
+    .block-carousel h2 {
+        margin-top:5%;
+    }
+    .arrows {
+        margin-top:13%;
+    }
+    .left-arrow {
+        display:none;
+    }
+    .right-arrow {
+        margin-left:80%;
+    }
+    .block-carousel {
+        height:auto;
+        padding-bottom:15%;
+    }
+    .sliader-drops {
+        padding-top:10%;
+        padding-left:30%;
+    }
+    .block-we-have-been-featured-in-logo {
+        padding-left:10%;
+    }
+    .logo-6 {
+        padding:10%;
+    }
+    .block-get-up-close-with-your-team {
+        background-image: none;
+    } 
+    .bg-after {
+        display:flex;
+        padding-top:15%;
+    }
+    .footer-nav  {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        height: 210px;
+    }
+    .footer-nav p {
+        padding-left:8%;
+        padding-top:10%;
+        font-weight: 800;
+        
+    }
+    .nav-link {
+        justify-content:flex-start;
+        padding-left:8%;
+        padding-top:5%;
+        order:2;
+    }
+    .nav-link a {
+        padding-right:10%;
+    }
+    .nav-image {
+        justify-content: flex-start;
+        padding-left:8%;
+        order:1;
+        padding-top:4%;
+        
+    }
+    .nav-image img {
+        padding-right:13%;
     }
 }
